@@ -1,0 +1,133 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10 mar 2024, 18:49:52
+    Author     : sebas
+*/
+header .container {
+    height: 80px;
+}
+
+.col-md-12, .tituloh1{
+    margin-top: -20px;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 64px;
+    font-family: Times New Roman;
+}
+
+.tituloh1:hover, .tituloh1:link, .tituloh1:active, .tituloh1:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.col-md-12 img{
+    margin-top: -15px;
+}
+
+
+.lead {
+    font-size: 12px;
+    font-family: Times New Roman;
+    padding-top: 10px;
+}
+
+
+.btn-link{
+    margin-left: 15px;
+}
+
+.dropdown {
+    margin-top: -35px;
+    margin-left: 1415px;
+}
+
+.dropdown-menu {
+    min-width: 30px;
+    margin-right: 10px;
+}
+
+.dropdown-item {
+    padding: 10px 10px;
+}
+
+.texto {
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.tituloh2 {
+    margin-top: -45px;
+    font-family: Times New Roman;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tituloh3 {
+    margin-top: 45px;
+    font-family: Times New Roman;
+    text-align: center;
+    font-size: 30px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+}
+
+.ralph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1370px;
+    height: 780px;
+}
+
+.offcanvas-body {
+    width: 249px;
+}
+
+.offcanvas-body img {
+    display: block; /* Para asegurar que la imagen sea tratada como bloque */
+    margin: 0 auto; /* Auto-margin para centrar la imagen horizontalmente */
+    margin-top: 45px;
+}
+
+.btn-group-vertical {
+    margin-top: 25px;
+    width: 215px;
+    font-family: Arial;
+}
+
+.btn-success a{
+    font-family: Arial;
+}
+
+.dropdown-menu a{
+    font-family: Arial;
+}
+
+.companhias {
+    width: 1500px;
+    margin-left: 20px;
+}
+
+.offcanvas-body a{
+    font-family: Sans Serif;
+    font-size: 36px;
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #135DE8;
+    text-decoration: none;
+}
