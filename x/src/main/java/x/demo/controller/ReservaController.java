@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author roger
  */
 @Controller
-public class EjemploController {
+public class ReservaController {
     
-    @RequestMapping("/Ejemplo1")
+    @RequestMapping("/Reserva")
     public String page(Model model) {
         model.addAttribute("attribute", "value");
-        return "/Ejemplo1/contenido"; // Quitamos el "/" al inicio para que coincida con la ruta relativa
+        return "/Reserva/contenido"; // Quitamos el "/" al inicio para que coincida con la ruta relativa
     }
 }

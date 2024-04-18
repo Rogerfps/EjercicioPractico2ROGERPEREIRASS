@@ -12,9 +12,9 @@ import x.demo.domain.Usuario;
  */
 public interface UsuarioDao extends JpaRepository<Usuario, Long> {
     
-    Usuario findByUsername (String username);
-    
-    Usuario findByUsernameAndPassword(String username, String Password);
+    Usuario findByUsernameAndPassword(String username, String password);
 
-    boolean existsByUsernameOrCorreo(String username, String Password);
+    boolean existsByUsername(String username);
+
+    
 }
